@@ -1,0 +1,24 @@
+@charset "UTF-8";
+*{margin: 0; padding: 0;}
+ul, li{list-style:none;}
+body{font-family:"Malgun Gothic"}
+a{text-decoration:none;}
+table{border-collapse:collapse;border-spacing:0;}
+.Logo{height: 80px;background:#09F;color:#fff; line-height:80px;text-align:center;}
+.gnb{height:40px;line-height:40px;text-align:center;background:#06F;}
+.gnb ul{display:inline-block;}
+.gnb ul:after{content:""display:block;clear:both;}
+.gnb li{width:140px;float:left;}
+.gnd a{display:block;padding:0 40px;color:#fff;font-size:17px;trasition:0.3s;}
+.gnd a:after{background:#09F;}
+
+.container{background:#fsfsfs;padding:50px;}
+.cootant{width:800px;margin:0 auto;background:#fff;padding:20px;}
+.content h2{margin-bottom:20px;text-align:center;}
+.content table{border-top:2px solid #666; width:100%;}
+.content td,
+.content th{height:40px;border-bottom:1px solid #ddd;}
+.content input[type="text"]{height:30px;border:1px solid #ddd;padding:0 10px;}
+
+.btn_group{margin-top:20px;text-align:center;}
+.btn_group button{width:80px;height:30px;border:none;background:#444;color:#fff;}
